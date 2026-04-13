@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cursed-vars",
+  "main": "src/index.js",
+  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_date": "2026-04-13",
+  "observability": {
+    "enabled": true,
+  },
+  "routes": [
+    {
+      "pattern": "cursedvars.com",
+      "custom_domain": true,
+    },
+  ],
+}
