@@ -7,7 +7,7 @@ A zero-dependency API deployed on Cloudflare Workers that returns a random funny
 ## Usage
 
 ```bash
-curl https://cursedvars.com/
+curl https://cursedvars.com/api
 ```
 
 **Response:**
